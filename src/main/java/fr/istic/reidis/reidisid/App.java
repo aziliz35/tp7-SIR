@@ -24,7 +24,7 @@ public class App
         jedis.sadd(cacheKey, "Java");
         jedis.sadd(cacheKey, "Ruby");
         // Getting the values... it doesn't allow duplicates
-        System.out.println("Languages: " + jedis.smembers(cacheKey));
+        System.out.println("Languages1: " + jedis.smembers(cacheKey));
 
 
     }
